@@ -1,0 +1,24 @@
+ansible is a configuration management tool
+
+it is simple and open source tool
+using YAML(yet another markup language) language and XML language
+ansible GUI is called ansible tower
+it is developed in 2012 by michael DeHan and taken over by RedHat in 2015
+ansible alternatve tools === chef & puppet
+
+sudo amazon-linux-extras install anible2 -y
+sudo yum install git python python-pip python-level openssl -y
+vi /etc/ansible/hosts
+add ipaddress
+vi/etc/ansible/ansible.cfg
+useradd ansible
+passwd ansible 
+set a password
+visudo (adduser and nopasswd)
+vim /etc/ssh/sshd_config ===== change password to yes
+sudo systemctl restart sshd
+sudo systemctl status sshd
+ansible all --list-hosts
+
+ANSIBLE PLAYBOOK
+written in yaml language ( yet another markup language )
